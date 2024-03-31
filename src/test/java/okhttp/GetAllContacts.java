@@ -1,3 +1,5 @@
+package okhttp;
+
 import helpers.PropertiesReader;
 import helpers.TestConfig;
 import models.ContactListModel;

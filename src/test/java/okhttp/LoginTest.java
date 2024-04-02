@@ -21,7 +21,7 @@ public class LoginTest implements TestHelper {
     public void loginPositive() throws IOException {
 
         AuthenticationRequestModel requestModel = AuthenticationRequestModel
-                .username(PropertiesReader.getProperty("existingUserEmail"+"f"))
+                .username(PropertiesReader.getProperty("existingUserEmail"))
                 .password(PropertiesReader.getProperty("existingUserPassword"));
         System.out.println("REQUEST: "+requestModel.getUsername()+" : "+requestModel.getPassword());
 

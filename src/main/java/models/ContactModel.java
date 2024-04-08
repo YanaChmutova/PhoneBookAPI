@@ -10,6 +10,10 @@ public class ContactModel {
     private String address;
     private String description;
 
+    public ContactModel() {
+
+    }
+
     public ContactModel id(String id) {
         this.id = id;
         return this;

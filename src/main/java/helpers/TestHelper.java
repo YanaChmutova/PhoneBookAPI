@@ -16,6 +16,7 @@ public interface TestHelper {
     public static  final  String ADD_CONTACT_PATH = "https://contactapp-telran-backend.herokuapp.com/v1/contacts";
     public static final String TOKEN_KEY = "token";
     public static  final  String LOGIN_PATH = "https://contactapp-telran-backend.herokuapp.com/v1/user/login/usernamepassword";
+    public static  final  String DELETE_ALL_CONTACTS_PATH = "https://contactapp-telran-backend.herokuapp.com/v1/contacts/clear";
 
 
 }

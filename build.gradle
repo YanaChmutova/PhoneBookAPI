@@ -22,10 +22,14 @@ dependencies {
 
     implementation group: 'io.rest-assured', name: 'rest-assured', version: '5.4.0'
     testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.4.0'
-    implementation 'io.qameta.allure:allure-testng:2.25.0'
-    testImplementation 'io.qameta.allure:allure-testng:2.25.0'
-    implementation 'io.qameta.allure:allure-java-commons:2.26.0'
-    testImplementation 'io.qameta.allure:allure-java-commons:2.26.0'
+
+    testImplementation group: 'org.mongodb', name: 'mongodb-driver-sync', version: '4.0.5'
+    implementation group: 'org.mongodb', name: 'mongodb-driver-sync', version: '4.0.5'
+
+    //implementation 'org.mongodb:mongo-java-driver:3.12.14'
+
+
+
 }
 
 test {
